@@ -259,7 +259,7 @@
                                 <phase>process-test-resources</phase>
                                 <configuration>
                                     <target>
-                                        <copy file="${agnostic.build.dir}/testing/dspace.cfg.woven" tofile="${agnostic.build.dir}/testing/dspace/config/dspace.cfg" />
+                                        <copy file="${agnostic.build.dir}/testing/dspace.cfg.woven" tofile="${agnostic.build.dir}/testing/dspace/config/dspace.cfg"/>
                                     </target>
                                 </configuration>
                                 <goals>
@@ -539,7 +539,7 @@
         <dependency>
             <groupId>dnsjava</groupId>
             <artifactId>dnsjava</artifactId>
-            <version>2.1.1</version>
+            <version>3.6.0</version>
         </dependency>
 
         <dependency>
